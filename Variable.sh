@@ -2,7 +2,7 @@
 
 name="RAHUL"
 
-echo "HELLO $name"
+echo "HELLO $name and date is ($date)"
 
 echo "Enter the Name :"
 
