@@ -2,9 +2,9 @@
 
 set -e
 
-GitUrl=""
-Project_Dir=""
-Webapp_Dir=""
+GitUrl="https://github.com/RAHUL-ANIGOKAR/ComplaintTrackingSystem"
+Project_Dir="/home/ubuntu/ComplaintTrackingSystem"
+Webapp_Dir="/opt/tomcat9/webapps"
 
 if git clone "$GitUrl" ;then
 	echo "Repo Cloned Successfully"
